@@ -7,8 +7,7 @@ describe Bacon do
   its(:editable?) { should be_true }
   
   it "expired!" do
-  	bacon = Bacon.new
   	bacon.expired!
-  	bacon.should be_expired
+  	bacon.should_not be_expired
   end
 end
