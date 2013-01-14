@@ -7,7 +7,7 @@ describe Bacon do
   its(:edible?) { should be_true }
   
   it "expired!" do
-  	bacon.expired!
-  	bacon.should_not be_expired
+  	subject.expired
+  	subject.should_not be_edible
   end
 end
