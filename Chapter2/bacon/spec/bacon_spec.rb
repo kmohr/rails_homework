@@ -4,7 +4,7 @@ describe Bacon do
   
   subject { Bacon.new }
 
-  its(:editable?) { should be_true }
+  its(:edible?) { should be_true }
   
   it "expired!" do
   	bacon.expired!
