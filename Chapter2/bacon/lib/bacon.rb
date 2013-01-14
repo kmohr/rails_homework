@@ -1,5 +1,7 @@
 class Bacon
 
+	attr_accessor :expired
+
 	def edible?
   		true
 	end
